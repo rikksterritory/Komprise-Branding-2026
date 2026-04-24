@@ -1790,3 +1790,17 @@ input {
     transition: none !important;
   }
 }
+/* Reduce color card font sizes */
+.swatch-card h3 {
+  font-size: 0.95rem;
+}
+.swatch-card p,
+.swatch-card .swatch-meta {
+  font-size: 0.75rem;
+}
+.swatch-type__label {
+  font-size: 0.7rem;
+}
+.swatch-type__chip {
+  font-size: 0.65rem;
+}
