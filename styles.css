@@ -1803,4 +1803,13 @@ input {
 }
 .swatch-type__chip {
   font-size: 0.65rem;
+}/* Fix swatch grid layout - two rows with more space */
+.swatch-grid {
+  display: grid !important;
+  grid-template-columns: repeat(4, 1fr) !important;
+  gap: 1.5rem !important;
 }
+
+.swatch-card {
+  min-width: 0 !important;
+}<p class="site-footer__meta">© <span data-year></span> Komprise. Brand system reference. Designed by Kiran Tanwar</p>
